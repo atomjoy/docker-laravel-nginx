@@ -22,3 +22,13 @@ docker compose ps
 docker exec -it app_host bash
 docker exec -it mysql_host bash
 ```
+
+## Laravel project directory
+
+```sh
+# Remove webapp dir and create new Laravel app
+composer create-project laravel/laravel webapp
+
+# Or copy your Laravel project files to
+webapp
+```
