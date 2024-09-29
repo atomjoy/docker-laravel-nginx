@@ -1,6 +1,6 @@
 # Nginx and Php-fpm with Laravel on Docker
 
-Running php-fpm and nginx processes in the same container with Laravel.
+Running php-fpm and nginx processes in the same container with Laravel (mysql, mariadb, sqlite).
 
 ## Config Mysql in files
 
