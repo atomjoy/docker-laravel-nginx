@@ -48,6 +48,7 @@ COPY ./php/www.conf /usr/local/etc/php-fpm.d/www.conf
 
 COPY ./php/php.ini /usr/local/etc/php/php.ini
 
+# Remove for app:9000 in nginx default.conf
 RUN nginx -t
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
